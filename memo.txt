@@ -1,0 +1,13 @@
+■動画URL
+https://www.youtube.com/watch?v=N3cq0BHDMOY
+
+■不明点
+- eventHandlersのoninput, oncloseはなんなのか
+- open()の引数3個はなんなのか
+- Capslockの仕組み
+- const Keyboard {}とeventHandlers: {}, properties: {}がなんなのか、仕組み
+-> const Keyboard {}はオブジェクト
+-> eventHandlers: {}, properties: {}はオブジェクトの中のオブジェクト
+-> oninput, oncloseはオブジェクト(const Keyboard {})の中のオブジェクト(eventHandlers: {})のプロパティ名(キー)
+
+- クラス、インスタンス、メソッドなどがよく分かっていない
